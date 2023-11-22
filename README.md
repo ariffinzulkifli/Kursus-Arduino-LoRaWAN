@@ -22,9 +22,15 @@ This repository is designed to provide enthusiasts, students, and professionals 
 6. [RS485 Soil Sensor](https://myduino.com/product/jhs-268/)
 7. [GPS Module](https://myduino.com/product/jhs-127/)
 
+<p align="center"><a href="https://myduino.com/product/drg-030/"><img src="https://www.dragino.com/media/k2/galleries/231/LA66-30.jpg" width="400"></a></p>
+
 #### LoRaWAN Gateway
 1. [Raspberry Pi 4](https://myduino.com/product/ctm-011/)
 2. [Dragino PG1302 LoRaWAN Concentrator HAT](https://myduino.com/product/drg-029/)
 
+<p align="center"><a href="https://myduino.com/product/drg-029/"><img src="https://www.dragino.com/media/k2/galleries/223/PG1302_10.jpg" width="400"></a></p>
+
 ### LoRaWAN Network Server
-I am using [TheThingsNetwork](https://www.thethingsnetwork.org/).
+I am using [TheThingsNetwork](https://www.thethingsnetwork.org/) as the Network Server.
+
+The payload from the LoRaWAN End Device need to be formatted using Custom Javascript formatter in TTN, you can find the decoder on `TTN_Decoder.js` file.
