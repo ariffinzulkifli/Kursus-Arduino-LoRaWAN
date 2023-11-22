@@ -1,3 +1,11 @@
+/*
+* LORAWAN AND DATA VISUALISATION
+* 
+* Penulis: Mohamad Ariffin Zulkifli
+* Syarikat: Myinvent Technologies Sdn Bhd
+* 
+*/
+
 function bytesToFloat(by) {
     var bits = by[3]<<24 | by[2]<<16 | by[1]<<8 | by[0];
     var sign = (bits>>>31 === 0) ? 1.0 : -1.0;
