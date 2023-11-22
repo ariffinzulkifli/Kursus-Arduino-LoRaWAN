@@ -1,3 +1,11 @@
+/*
+* MJII - LORAWAN AND DATA VISUALISATION
+* 
+* Penulis: Mohamad Ariffin Zulkifli
+* Syarikat: Myinvent Technologies Sdn Bhd
+* 
+*/
+
 #include <SoftwareSerial.h>
 
 String inputString = "";
