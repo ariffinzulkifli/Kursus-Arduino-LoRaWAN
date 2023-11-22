@@ -1,3 +1,11 @@
+/*
+* MJII - LORAWAN AND DATA VISUALISATION
+* 
+* Penulis: Mohamad Ariffin Zulkifli
+* Syarikat: Myinvent Technologies Sdn Bhd
+* 
+*/
+
 #include <SimpleDHT.h>
 
 SimpleDHT11 dht11(2);
